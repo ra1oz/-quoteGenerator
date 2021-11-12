@@ -37,7 +37,7 @@ function newQuote() {
   } else {
     quoteText.classList.remove("long-quote");
   }
-  // Set Quote, Hide Loader
+
   quoteText.textContent = quote.text;
   removeLoadingSpinner();
 }
